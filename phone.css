@@ -1,0 +1,197 @@
+header .menu_side, .song_side {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid #fff; */
+    background-color: rgb(28, 28, 30);
+    box-shadow: 5px 0px 2px #000000;
+    color: #fff;
+}
+header .song_side {
+    width: 70%;
+    background: rgb(0, 0, 0);
+    
+}
+header .song_side {
+    z-index: 2;
+}
+header .menu_side h1{
+    font-size: 15px;
+    font-weight: 500;
+}
+header .menu_side .playlist {
+    
+    display: inline;
+    
+}
+header .menu_side .playlist h4{
+    font-size: 12px;
+    margin-left: 8px;
+}
+header .menu_side .menu_song{
+    margin-top: 20px;
+
+}
+header .menu_side .menu_song li h5{
+    font-size: 10px;
+    margin-left: 5px;
+}
+header .menu_side .menu_song li h5 .subtitle{
+    font-size: 7px;
+    color: #4c5262;
+}
+header .menu_side .menu_song span{
+    display: none;
+}
+header .menu_side .menu_song li img{
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+header .menu_side .menu_song li .bi{
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    font-size: 16px;
+}
+header .menu_side .subscribe{
+    height: 220px;
+    width: 150px;
+    background-color: rgb(13, 13, 34);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    align-items: center;
+}
+header .menu_side .subscribe li{
+    position: relative;
+    list-style-type:square;
+    padding: 5px 0px 5px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: .3s linear;
+    
+}
+header .menu_side .subscribe h1{
+   width: 100px;
+   height: 25px;
+   border: 2px solid #36e2ec;
+   outline: none;
+   margin-bottom: 10px;
+   border-radius: 20px;
+   background: #5adae0;
+   color: #fff;
+   cursor: pointer;
+   transition: .3s linear; 
+}
+header .menu_side .subscribe .subs li{
+    font-size: 12px;
+}
+header .menu_side .subscribe h4{
+    font-size: 10px;
+}
+header .song_side nav ul li{
+    font-size: 9px;
+    margin-right: 15px;
+}
+header .song_side nav .search{
+    width: 30%;
+}
+header .song_side nav .search .bi{
+    display: none;
+}
+header .song_side nav .search input{
+    font-size: 10px;
+}
+header .song_side nav .user{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: opx;
+ }
+ header .song_side nav .user img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px #131312;
+ }
+ header .song_side .content {
+    padding-top: 10px;
+ }
+ header .song_side .content h1{
+    font-size: 15px;
+    font-weight: 600;
+ }
+ header .song_side .content p{
+    font-size: 10px;
+    font-weight: 600;
+ }
+ header .song_side .content .buttons button{
+    width: 100px;
+    height: 25px;
+ }
+ header .song_side .popular_song .pop_song li .img_play img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10%;
+  }
+  header .song_side .radio{
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+header .song_side .radio::-webkit-scrollbar{
+    display: none;
+}
+header .song_side .radio li img{
+    min-width: 80px;
+    cursor: pointer;
+    height: 80px;
+    list-style-type: none;
+    margin-right: 10px;
+    transition: .3s linear;
+      
+    border-radius: 50%;
+}
+header .song_side .master_play{
+    padding-top: 2%;
+}
+header .song_side .master_play .time img{
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+header .song_side .master_play .time h5{
+    width: 80px;
+    font-size: 10px;
+    margin-left: 15px;
+    color: #fff;
+    line-height: 17px;
+}
+header .song_side .master_play .time h5 .subtitle{
+    font-size: 11px;
+   color: #4c5262;
+}
+header  #seek{
+          width: 25vw;
+          
+}
+header .song_side .master_play .icon{
+    margin-top: 10px;
+
+   
+}
+header .song_side .master_play .icon i{
+    cursor: pointer;
+    justify-content: space-between;
+    height: 24px;
+    width: 24px;
+    
+}
